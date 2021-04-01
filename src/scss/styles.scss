@@ -10,3 +10,49 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.byline-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.byline-source {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.display-4 {
+  font-family: 'New Tegomin', serif;
+  color: white;
+  text-align: center;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.story-headline {
+  font-family: 'New Tegomin', serif;
+}
+
+.subhead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+
+.navbar a:hover {
+  text-decoration: underline;
+}
